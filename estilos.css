@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f7f1ec;
+}
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #f8f3ee;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo span {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.icons img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero-button:hover {
+    background: white;
+    color: black;
+}
+.descripcion {
+    text-align: center;
+    margin: 2rem 1rem;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+}
+
+.boton-pago {
+    text-align: center;
+    margin: 2rem;
+}
+
+.boton-pago a {
+    background: #009ee3;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Menú hamburguesa pendiente */
+    }
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 5px;
+  }
+  
+  nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #8a774b; /* color dorado/ocre */
+    transition: width 0.3s ease;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  .product-card {
+    width: 300px;
+    border: 1px solid #eee;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 25px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    transition: opacity 0.4s ease;
+    display: block;
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .image-container:hover .hover-image {
+    opacity: 1;
+  }
+  
+  .image-container:hover .main-image {
+    opacity: 0;
+  }
+  
+  .product-info h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+  }
+  
+  .product-info p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  
+  
+/* Responsive */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #f5f1eb;
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
