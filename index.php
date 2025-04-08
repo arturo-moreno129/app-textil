@@ -47,9 +47,9 @@
 
 
     <footer>
-        <section class="descripcion">
+        <!--<section class="descripcion">
             <p>Soluciones de packaging para empresas</p>
-        </section>
+        </section>-->
         <a href="https://wa.me/2462085244?text=Hola,%20me%20gustaría%20obtener%20más%20información."
             target="_blank" class="whatsapp-float">
             <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
