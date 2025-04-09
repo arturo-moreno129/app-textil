@@ -10,7 +10,9 @@
 
 <body>
     <header>
-        <div class="logo">TELAS EVE <span>La mejor solucion textil</span></div>
+        <div class="logo">
+            <img src="assets/logo_largo.png" alt="">
+        </div>
         <nav>
             <ul class="nav-links">
                 <li><a href="#">INICIO</a></li>
@@ -28,7 +30,7 @@
     </header>
 
     <section class="hero">
-        <img src="assets/banner.jpeg" alt="Banner principal" />
+        <img src="assets/prueba_baner.webp" alt="Banner principal" />
         <a href="#" class="hero-button">MÁS VENDIDOS</a>
     </section>
 
