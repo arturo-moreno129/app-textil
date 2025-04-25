@@ -17,10 +17,10 @@
             <ul class="nav-links">
                 <li><a href="#">INICIO</a></li>
                 <li><a href="#">TOTEBAGS</a></li>
-                <li><a href="#">BOLSAS DE JARETA</a></li>
+                <!--<li><a href="#">BOLSAS DE JARETA</a></li>
                 <li><a href="#">PAPEL CHINA</a></li>
                 <li><a href="#">MAS VENDIDOS</a></li>
-                <li><a href="#">TODOS LOS PRODUCTOS</a></li>
+                <li><a href="#">TODOS LOS PRODUCTOS</a></li>-->
             </ul>
         </nav>
         <div class="icons">
@@ -52,7 +52,7 @@
         <!--<section class="descripcion">
             <p>Soluciones de packaging para empresas</p>
         </section>-->
-        <a href="https://wa.me/2462085244?text=Hola,%20me%20gustaría%20obtener%20más%20información."
+        <a href="https://wa.me/2212016363?text=Hola,%20me%20gustaría%20obtener%20más%20información."
             target="_blank" class="whatsapp-float">
             <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
         </a>
